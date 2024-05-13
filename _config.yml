@@ -9,7 +9,7 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Ho_Chi_Minh
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -19,14 +19,14 @@ title: Huuminh365 # the main title
 tagline: Fall in love with Math, Machine Learning and Deep Learning # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  <3 
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://huuminh365.github.io/"
 
 github:
-  username: github_username # change to your github username
+  username: huuminh365 # change to your github username
 
 twitter:
   username: twitter_username # change to your twitter username
@@ -34,12 +34,13 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Nguyen Thi Thanh Hoa
+  name: Nguyễn Thị Thanh Hoà
   email: huuminh365@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/huuminh365 # change to your github homepage
+    - https://www.facebook.com/TuanAmbiTion173/ #facebook homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
