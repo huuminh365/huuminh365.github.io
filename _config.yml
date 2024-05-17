@@ -28,9 +28,6 @@ url: "https://huuminh365.github.io/"
 github:
   username: huuminh365 # change to your github username
 
-twitter:
-  username: twitter_username # change to your twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -40,7 +37,7 @@ social:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/huuminh365 # change to your github homepage
-    - https://www.facebook.com/TuanAmbiTion173/ #facebook homepage
+    - https://www.facebook.com/huuminh365/ #facebook homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -108,10 +105,10 @@ toc: true
 
 comments:
   # Global switch for the post comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
+  provider: disqus # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname: huuminh365 # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo: # <gh-username>/<repo>
@@ -134,7 +131,7 @@ assets:
     enabled: # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env: # [development | production]
+    env:  # [development | production]
 
 pwa:
   enabled: true # the option for PWA feature (installable)
@@ -191,6 +188,10 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: /assets/img/repion
+    values:
+      swcache: true
   - scope:
       path: assets/js/dist
     values:
